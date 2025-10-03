@@ -14,3 +14,8 @@ cd chinese-name-classifier
 pip install -r requirements.txt
 python train.py
 python infer.py
+
+## **Example Output**
+Wang Wei       -> (True, 0.9997)
+Anna Miller    -> (False, 0.0006)
+Zhang San      -> (True, 0.9997)
